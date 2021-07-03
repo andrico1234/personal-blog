@@ -171,7 +171,8 @@ ol {
   margin-left: var(--spacing-0);
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
-  margin-bottom: var(--spacing-8);
+  margin-bottom: var(--spacing-0);
+  margin-top: var(--spacing-0);
   list-style-position: outside;
   list-style-image: none;
 }
@@ -226,24 +227,6 @@ table thead tr th {
   border-bottom: 1px solid var(--color-accent);
 }
 
-main {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: row;
-  margin-top: 2em;
-}
-
-main article {
-  max-width: 42em;
-}
-
-main aside {
-  border: 1px solid red;
-  max-width: 24em;
-  width: 100%;
-  min-width: 12em;
-}
-
 /* Link */
 
 a {
@@ -259,7 +242,7 @@ a:focus {
 
 .global-wrapper {
   margin: var(--spacing-0) auto;
-  padding: var(--spacing-10) var(--spacing-5);
+  padding: var(--spacing-10) 0;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -276,8 +259,15 @@ a:focus {
 }
 
 .post-list-item {
-  margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
+  padding: 0 var(--spacing-4);
+}
+
+.post-list-item:nth-child(even) {
+  background-color: var(--black);
+}
+
+.post-list-item article {
+  max-width: 42em;
 }
 
 .post-list-item p {
@@ -285,6 +275,7 @@ a:focus {
 }
 
 .post-list-item h2 {
+  font-size: var(--font-size-5);
   color: var(--color-accent-text);
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);

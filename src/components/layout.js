@@ -9,17 +9,7 @@ const Layout = ({ location, title, children }) => {
     <div>
       <NavBar />
       <div className="global-wrapper" data-is-root-path={isRootPath}>
-        {/* <header className="global-header">{header}</header> */}
-        <main>
-          <article>{children}</article>
-          <aside>hey there</aside>
-        </main>
-
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        <main>{children}</main>
       </div>
     </div>
   )

@@ -4,9 +4,11 @@ import * as styles from "./nav-bar.module.css"
 export function NavBar() {
   return (
     <nav className={styles.NavBar}>
-      <div>
-        <h2>Andrico's blog</h2>
-      </div>
+      <h2>Andrico</h2>
+      <div>•</div>
+      <p>portfolio</p>
+      <div>•</div>
+      <p>blog</p>
     </nav>
   )
 }
