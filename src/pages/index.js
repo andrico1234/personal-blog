@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
+import { Email } from "../components/email"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -58,7 +58,15 @@ const BlogIndex = ({ data, location }) => {
             <header>
               <h2>Subscribe</h2>
             </header>
-            <section>Something something</section>
+            <p>
+              Get notified whenever I post and get it sent straight to your
+              inbox
+            </p>
+            <Email />
+            <p>
+              I promise I won't send you spam 😇. You can unsubscribe at any
+              time.
+            </p>
           </article>
         </li>
       </ol>
