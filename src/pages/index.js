@@ -37,7 +37,9 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <p>
+                    <small>{post.frontmatter.date}</small>
+                  </p>
                 </header>
                 <section>
                   <p
@@ -51,6 +53,14 @@ const BlogIndex = ({ data, location }) => {
             </li>
           )
         })}
+        <li className="contact-list-item">
+          <article>
+            <header>
+              <h2>Subscribe</h2>
+            </header>
+            <section>Something something</section>
+          </article>
+        </li>
       </ol>
     </Layout>
   )

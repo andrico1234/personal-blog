@@ -30,3 +30,9 @@
   text-align: center;
   color: var(--color-accent-text);
 }
+
+.NavBar a:hover,
+.NavBar a:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--color-light-text);
+}
