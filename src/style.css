@@ -138,7 +138,7 @@ h6 {
 }
 
 h1 {
-  font-weight: var(--font-weight-black);
+  font-weight: var(--font-weight-heavy);
   font-size: var(--font-size-xlarge);
   color: var(--color-text);
 }
@@ -155,7 +155,8 @@ h5 > a,
 h6 > a {
   text-decoration: none;
   color: inherit;
-  padding: 16px 0;
+  height: 100%;
+  display: inline-block;
 }
 
 h2 > a:hover {
@@ -266,7 +267,7 @@ a:focus {
 
 .post-list-item,
 .contact-list-item {
-  padding: 0 var(--spacing-4);
+  padding: var(--spacing-2) var(--spacing-4);
   margin-bottom: 0;
   padding-bottom: var(--spacing-4);
 }
@@ -289,12 +290,20 @@ a:focus {
 }
 
 .post-list-item h2,
+.blog-post h1,
 .contact-list-item h2 {
-  /* font-size: var(--font-size-5); */
   font-size: clamp(21px, 5vw, 60px);
   margin-bottom: var(--spacing-0);
   margin-top: var(--spacing-0);
   padding-right: 2em;
+}
+
+.blog-post h2 {
+  font-size: clamp(18px, 3vw, 24px);
+}
+
+.blog-post h3 {
+  font-size: clamp(16px, 2.5vw, 21px);
 }
 
 .post-list-item:nth-child(even) {
@@ -328,6 +337,15 @@ a:focus {
   border-radius: 100%;
 }
 
+.blog-post {
+  padding: var(--spacing-2) var(--spacing-4);
+  max-width: 42em;
+}
+
+.blog-post ul {
+  list-style-position: inside;
+}
+
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
@@ -335,6 +353,10 @@ a:focus {
 .blog-post header p {
   font-size: var(--font-size-2);
   font-family: var(--font-heading);
+}
+
+.blog-post-nav {
+  padding: var(--spacing-2) var(--spacing-4);
 }
 
 .blog-post-nav ul {
