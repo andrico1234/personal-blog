@@ -281,6 +281,11 @@ a:focus {
   color: var(--color-light-text);
 }
 
+.contact-list-item p {
+  font-size: 1.4em;
+  margin: 0;
+}
+
 .post-list-item article {
   max-width: 42em;
 }

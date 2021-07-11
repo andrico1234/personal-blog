@@ -57,9 +57,8 @@
 }
 .formkit-form[data-uid="d026ca3e3c"] .formkit-input {
   background: #ffffff;
-  font-size: 15px;
+  border: 0;
   padding: 12px;
-  border: 1px solid #e3e3e3;
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -68,12 +67,7 @@
   -webkit-transition: border-color ease-out 300ms;
   transition: border-color ease-out 300ms;
 }
-.formkit-form[data-uid="d026ca3e3c"] .formkit-input:focus {
-  outline: none;
-  border-color: #1677be;
-  -webkit-transition: border-color ease 300ms;
-  transition: border-color ease 300ms;
-}
+
 .formkit-form[data-uid="d026ca3e3c"] .formkit-input::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.8;
@@ -93,7 +87,6 @@
 
 .formkit-form[data-uid="d026ca3e3c"] .formkit-alert {
   background: #f9fafb;
-  border: 1px solid #e3e3e3;
   border-radius: 2px;
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;

@@ -64,8 +64,7 @@ const BlogIndex = ({ data, location }) => {
             </p>
             <Email />
             <p>
-              I promise I won't send you spam 😇. You can unsubscribe at any
-              time.
+              I promise I won't send spam 😇. You can unsubscribe at any time.
             </p>
           </article>
         </li>
