@@ -32,6 +32,7 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <hr />
+        <div className="s9-widget-wrapper"></div>
         <footer>
           <Bio />
         </footer>

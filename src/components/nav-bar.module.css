@@ -31,6 +31,10 @@
   color: var(--color-accent-text);
 }
 
+.NavBar a {
+  font-weight: var(--font-weight-regular);
+}
+
 .NavBar a:hover,
 .NavBar a:focus {
   text-decoration: underline;
