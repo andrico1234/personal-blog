@@ -379,6 +379,10 @@ a:focus {
   text-decoration-color: var(--color-light-text);
 }
 
+.s9-widget-wrapper {
+  min-height: 40px;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

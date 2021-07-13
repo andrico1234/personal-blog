@@ -14,7 +14,7 @@ const BlogPostTemplate = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo
         pathname={location.pathname}
-        image={post.frontmatter.image}
+        image={post.frontmatter.image.childImageSharp.resize}
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />

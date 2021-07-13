@@ -41,8 +41,6 @@ const Seo: React.FC<Props> = props => {
     `
   )
 
-  console.log(props, site)
-
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
@@ -50,6 +48,8 @@ const Seo: React.FC<Props> = props => {
     metaImage && metaImage.src
       ? `${site.siteMetadata.siteUrl}${metaImage.src}`
       : null
+
+  console.log(image, metaImage)
 
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
 
