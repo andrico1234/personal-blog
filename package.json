@@ -29,6 +29,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "@types/react-helmet": "^6.1.2",
     "prettier": "2.2.1"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",

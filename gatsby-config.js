@@ -3,7 +3,7 @@ module.exports = {
     title: `Andrico's blog`,
     author: {
       name: `Andrico Karoulla`,
-      summary: `A software engineer who cares deeply about all things every.`,
+      summary: `a developer who cares deeply about all things frontend, like design systems, accessibility, and web components.`,
     },
     description: `A blog for all my written content.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -118,7 +118,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-pic.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,

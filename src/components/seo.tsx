@@ -10,7 +10,21 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-const Seo = ({ description, lang, meta, title }) => {
+interface Props {
+  description?: string
+  lang?: string
+  meta?: any[]
+  title: string
+  pathname: string
+  image: {
+    src: string
+    height: string
+    width: string
+  }
+}
+
+const Seo: React.FC<Props> = props => {
+  const { description, lang, meta, title, pathname, image: metaImage } = props
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -27,8 +41,17 @@ const Seo = ({ description, lang, meta, title }) => {
     `
   )
 
+  console.log(props, site)
+
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+
+  const image =
+    metaImage && metaImage.src
+      ? `${site.siteMetadata.siteUrl}${metaImage.src}`
+      : null
+
+  const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
 
   return (
     <Helmet
@@ -37,6 +60,16 @@ const Seo = ({ description, lang, meta, title }) => {
       }}
       title={title}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      link={
+        canonical
+          ? [
+              {
+                rel: "canonical",
+                href: canonical,
+              },
+            ]
+          : []
+      }
       meta={[
         {
           name: `description`,
@@ -55,10 +88,6 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
           name: `twitter:creator`,
           content: site.siteMetadata?.social?.twitter || ``,
         },
@@ -70,7 +99,35 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ].concat(meta)}
+      ]
+        .concat(
+          metaImage
+            ? [
+                {
+                  property: "og:image",
+                  content: image,
+                },
+                {
+                  property: "og:image:width",
+                  content: metaImage.width,
+                },
+                {
+                  property: "og:image:height",
+                  content: metaImage.height,
+                },
+                {
+                  name: "twitter:card",
+                  content: "summary_large_image",
+                },
+              ]
+            : [
+                {
+                  name: "twitter:card",
+                  content: "summary",
+                },
+              ]
+        )
+        .concat(meta)}
     />
   )
 }
@@ -79,13 +136,6 @@ Seo.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-}
-
-Seo.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
 }
 
 export default Seo

@@ -13,6 +13,8 @@ const BlogPostTemplate = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo
+        pathname={location.pathname}
+        image={post.frontmatter.image}
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
@@ -85,6 +87,15 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        image: featured {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+              height
+              width
+            }
+          }
+        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
