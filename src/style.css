@@ -383,6 +383,12 @@ a:focus {
   min-height: 40px;
 }
 
+#s9-share-inline .s9-btn-share:focus {
+  outline-color: rgb(0, 95, 204) !important;
+  outline-offset: 1px !important;
+  outline-style: auto !important      ;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
