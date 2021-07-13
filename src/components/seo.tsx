@@ -30,6 +30,7 @@ const Seo: React.FC<Props> = props => {
       query {
         site {
           siteMetadata {
+            siteUrl
             title
             description
             social {
@@ -48,8 +49,6 @@ const Seo: React.FC<Props> = props => {
     metaImage && metaImage.src
       ? `${site.siteMetadata.siteUrl}${metaImage.src}`
       : null
-
-  console.log(image, metaImage)
 
   const canonical = pathname ? `${site.siteMetadata.siteUrl}${pathname}` : null
 
