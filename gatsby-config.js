@@ -17,6 +17,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    "gatsby-plugin-twitter",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -47,6 +48,13 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: `gatsby-remark-external-links`,
+            options: {
+              target: `_blank`,
+              rel: "noopener noreferrer",
+            },
+          },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
@@ -63,6 +71,7 @@ module.exports = {
         defer: true,
       },
     },
+    "gatsby-plugin-catch-links",
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
     //   options: {
