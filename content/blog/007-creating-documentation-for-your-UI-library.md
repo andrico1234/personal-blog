@@ -1,7 +1,7 @@
 ---
 title: Creating documentation for your UI library
 date: "2021-08-28T19:10:00.000Z"
-description: "Hello world"
+description: "Good documentation is a cornerstone of great developer experience, and great developer experience will encourage developers to stick with your library. This article offers different documentation options (from the very simple, to the more involved) to help you get your library well-documented and set up for success."
 featured: images/seo-test.jpeg
 ---
 
@@ -77,4 +77,4 @@ If you're interested in some more advanced topics, like setting up custom domain
 
 Phew! After all that work, you've got your UI library up and running. By creating documentation for your end-users, you've set your UI library up for future success.
 
-What's left to do? All the fun stuff! Like adding more components, writing more tests, exploring new patterns, and automating more of the manual work. We'll [wrap up in the last article](008-conclusion-the-dilemmas-you'll-face-when-creating-a-web-component-library)!
+What's left to do? All the fun stuff! Like adding more components, writing more tests, exploring new patterns, and automating more of the manual work. We'll [wrap up in the last article](./008-conclusion-the-dilemmas-you'll-face-when-creating-a-web-component-library)!

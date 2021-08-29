@@ -1,9 +1,11 @@
 ---
 title: The dilemmas you'll face when creating a web component UI library
 date: "2021-08-28T18:00:00.000Z"
-description: "This article series will help you navigate the many choices you'll need to make when you create your very own web component library. The series will help you make the right decisions for your library across areas like repo scaffolding, choosing a framework, testing, versioning, publishing, and documentation."
-featured: images/seo-test.jpeg
+description: "When creating your UI library, you'll be faced with tough dilemmas at every step of the journey. This article series will help you navigate the many choices you'll need to make. These choices cover areas like repo scaffolding, choosing a framework, testing, versioning, publishing, and documentation. By the end, you'll have set the foundations for a robust, and accessible, UI component library."
+featured: images/library-by-kevin-butz.jpg
 ---
+
+![A library](images/library-by-kevin-butz.jpg "Photo by [Kevin Butz](https://unsplash.com/@kevin_butz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 Web development often gets a bad rep about instilling our developers with a sense of JavaScript fatigue. At every step of your journey, you're confronted with dilemmas. Which language to use, which frameworks to use, how to scaffold your repo, how to create a testing strategy. The list goes on.
 

@@ -1,11 +1,13 @@
 ---
 title: Tools to help manage your monorepo
 date: "2021-08-28T18:20:00.000Z"
-description: "Hello world"
-featured: images/seo-test.jpeg
+description: "Finding the right tools to manage your monorepo isn't a new problem, but it's still important to pick the right ones. This article runs through a handful of different tools, to help you pick the ones you need to make your development experience a pleasant one."
+featured: images/tools-by-hunter-haley.jpg
 ---
 
 > This article is part 2 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+
+![Hammer, screwdriver, and pliers](images/tools-by-hunter-haley.jpg "Photo by [Hunter Haley](https://unsplash.com/@hnhmarketing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 With your sights on using a monorepo, your next dilemma is choosing the right tool(s) to manage it.
 

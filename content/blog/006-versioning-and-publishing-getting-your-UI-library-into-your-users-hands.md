@@ -1,11 +1,13 @@
 ---
 title: "Versioning and publishing: getting your UI library into your user's hands"
 date: "2021-08-28T19:00:00.000Z"
-description: "Hello world"
+description: "Versioning and publishing can feel intimidating. At least it does for me. Getting it right means you deliver well-communicated updates that work with  your end-users workflow. Getting it wrong can lead to developer headache and a loss of end-user trust. This article presents some questions for you to help you pick your versioning strategy, along with some tools to help you publish confidently."
 featured: images/seo-test.jpeg
 ---
 
 > This article is part 6 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+
+[Rocket ready for launch](images/launch-by-margaux-bellott.jpg "Photo by [Margaux Bellott](https://unsplash.com/@mxrgo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 In your library's infancy, you might take the approach of developing rapidly and releasing frequently. If your user base consists of early adopters and tinkerers, then you might feel comfortable playing fast and loose with your versioning. As your library matures and starts being used more and in larger projects, your responsibility as a library developer increases. By this point, it's important that the changes you make to your library are well-considered and clearly communicated.
 

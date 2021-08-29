@@ -1,11 +1,13 @@
 ---
 title: Defining your UI library's testing strategy
 date: "2021-08-28T18:50:00.000Z"
-description: "Hello world"
-featured: images/seo-test.jpeg
+description: "Your component library is taking shape and you're getting close to publishing! Can you confidently say that you won't ship broken behaviour and that your components work across browsers? If you said no, it's time to consider your testing strategy. If you said yes, then it's still time to consider your testing strategy. Don't add testing only when you need to."
+featured: images/testing-by-national-cancer-institute.jpg
 ---
 
 > This article is part 5 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+
+[Dr. Jonathan Hartwell (right) and his assistant Sylvy R. Levy Kornberg conduct some of the earliest chemotherapy tests at the National Cancer Institute, about 1950.](images/testing-by-national-cancer-institute.jpg "Photo by [National Cancer Institute](https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 Your components are looking dope. You've shared some teasers on Twitter and your legions of followers are keen to swap out their current UI libraries with yours. But wait, are you certain that it all works as expected? Maybe it's fine on Chrome, but what about Safari and other browsers? What about edge cases or when used with assistive technologies?
 

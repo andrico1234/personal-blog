@@ -102,6 +102,10 @@ footer {
   padding: var(--spacing-6) var(--spacing-0);
 }
 
+figcaption {
+  text-align: center;
+}
+
 hr {
   background: var(--color-accent);
   height: 1px;
@@ -271,6 +275,10 @@ a:focus {
   padding: var(--spacing-2) var(--spacing-4);
   margin-bottom: 0;
   padding-bottom: var(--spacing-4);
+}
+
+.post-list-item article {
+  max-width: 55em;
 }
 
 .post-list-item:nth-child(even) {

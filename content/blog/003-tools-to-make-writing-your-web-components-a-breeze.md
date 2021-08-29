@@ -1,11 +1,13 @@
 ---
 title: Tools to make writing your web components a breeze
 date: "2021-08-28T18:30:00.000Z"
-description: "Hello world"
-featured: images/seo-test.jpeg
+description: "Choosing a library for building web components can help you deliver quickly. It's just... there are a few dozen libraries to pick from. Don't worry, this article will help you think critically about which library (if any) is most appropriate for your UI library."
+featured: images/typewriter-markus-winkler.jpg
 ---
 
 > This article is part 3 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+
+![Typewriter](images/typewriter-markus-winkler.jpg "Photo by [Markus Winkler](https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 You've learned a good deal about how to scaffold and manage your monorepo. So enough yak shaving, it's time to buckle down and pick a framework to build your web components with.
 
