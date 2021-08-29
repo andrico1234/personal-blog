@@ -5,7 +5,7 @@ description: "Hello world"
 featured: images/seo-test.jpeg
 ---
 
-> This article is part 1 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 1 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
 You've decided that you want to create a web component UI library. Great, that means you've thrown away the "which JavaScript framework do I use?" question. With that said, you're faced your first dilemma, how do you want your end-users to consume your library?
 
@@ -96,4 +96,4 @@ For [oui-ui](https://oui-ui.netlify.app/), because I envision end-users to only 
 
 ## Next steps
 
-You may, or may not, have chosen to use monorepos for your UI library. If you did, then you're in luck. In the [next article](/tools-to-help-you-manage-your-monorepo), we discuss some of the tooling you can use to help manage your monorepo. If you didn't choose to use a monorepo, then no worries! You can jump straight to the article after; how to write your web components.
+You may, or may not, have chosen to use monorepos for your UI library. If you did, then you're in luck. In the [next article](/002-tools-to-help-you-manage-your-monorepo), I'll help you choose the right tool to help you manage your monorepo. If you didn't choose to use a monorepo, then no worries! You can jump straight to the article after; [how to write your web components](/003-tools-to-make-writing-your-web-components-a-breeze).

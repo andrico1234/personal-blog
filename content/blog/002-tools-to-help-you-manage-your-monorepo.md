@@ -5,7 +5,7 @@ description: "Hello world"
 featured: images/seo-test.jpeg
 ---
 
-> This article is part 2 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 2 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
 With your sights on using a monorepo, your next dilemma is choosing the right tool(s) to manage it.
 
@@ -38,11 +38,9 @@ It might sound like a lot to take in, but that's fine as each tool focuses on so
 
 If you're already using Yarn to install dependencies, y'all get Yarn workspaces for free. The API surface is small and requires little more than some config changes.
 
-### Versioning + publishing
+### Versioning and publishing
 
-Library versioning is a scary topic (at least for me), but Changesets promotes an approach that better integrates versioning management into the development cycle. If this sounds confusing or vague, I cover this in a lot more detail in this article.
-
-<!-- TODO: add link to versioning article -->
+Library versioning is a scary topic (at least for me), but Changesets promotes an approach that better integrates versioning management into the development cycle. If this sounds confusing or vague, I cover versioning and publishing in a lot more detail [here](/006-versioning-and-publishing-getting-your-UI-library-into-your-users-hands).
 
 ### Running scripts
 
@@ -58,6 +56,6 @@ As an aside, I should clarify that this behaviour _does_ exist in Yarn...
 
 Nothing's stopping you from using both Lerna and Yarn workspaces. Repos like [Vaadin](https://github.com/vaadin/web-components) do so you can mix and match to fit your needs.
 
-### Next Steps
+### Next steps
 
-Your repo is finally set up and you've got a suite of management tools at your disposal. It's time to write some web components!
+Your repo is finally set up and you've got a suite of management tools at your disposal. It's time to [write some web components](/003-tools-to-make-writing-your-web-components-a-breeze).

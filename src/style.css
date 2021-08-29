@@ -250,7 +250,7 @@ a:focus {
 
 .global-wrapper {
   margin: var(--spacing-0) auto;
-  padding: var(--spacing-10) 0;
+  padding: var(--spacing-10) 0 0 0;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -289,13 +289,12 @@ a:focus {
 
 .post-list-item p {
   margin-bottom: var(--spacing-0);
-  max-width: 50em;
 }
 
 .post-list-item h2,
 .blog-post h1,
 .contact-list-item h2 {
-  font-size: clamp(21px, 4vw, 60px);
+  font-size: clamp(21px, 4vw, 40px);
   margin-bottom: var(--spacing-0);
   margin-top: var(--spacing-0);
   padding-right: 2em;
@@ -340,8 +339,10 @@ a:focus {
   border-radius: 100%;
 }
 
-.blog-post {
+.blog-post,
+.blog-post-nav {
   padding: var(--spacing-2) var(--spacing-4);
+  max-width: 55em;
 }
 
 .blog-post ul {
@@ -355,10 +356,6 @@ a:focus {
 .blog-post header p {
   font-size: var(--font-size-2);
   font-family: var(--font-heading);
-}
-
-.blog-post section {
-  max-width: 50em;
 }
 
 .blog-post-nav {

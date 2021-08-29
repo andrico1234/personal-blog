@@ -1,5 +1,5 @@
 ---
-title: The dilemmas you'll face when creating a web component library
+title: The dilemmas you'll face when creating a web component UI library
 date: "2021-08-28T18:00:00.000Z"
 description: "This article series will help you navigate the many choices you'll need to make when you create your very own web component library. The series will help you make the right decisions for your library across areas like repo scaffolding, choosing a framework, testing, versioning, publishing, and documentation."
 featured: images/seo-test.jpeg
@@ -11,8 +11,8 @@ I wanted to create my own UI library but found myself faced with these dilemmas 
 
 This series will walk you through the dilemmas you'll face when creating a UI library, specifically a web component library. Why web components? I don't want to get into the web politics around web components, but here's why I chose them for my library:
 
-- There's something alluring about throwing away the need for a JavaScript framework.
-- There's a lot of value in getting reacquainted with the fundamental browser technologies (HTML, CSS, Vanilla JS).
+- there's something alluring about throwing away the need for a JavaScript framework
+- there's a lot of value in getting reacquainted with the fundamental browser technologies (HTML, CSS, Vanilla JS)
 
 And if you're reading this, I'll assume that you somewhat agree too.
 
@@ -30,7 +30,7 @@ I should mention that this series **is not** a tutorial, so you won't find any:
 
 - code snippets
 - tips on writing web components
-- deep dives into the specific technologies I bring up.
+- deep dives into the specific technologies I bring up
 
 Instead, this series focuses on the different dilemmas you might face when creating a component library. The series aims to provide enough guidance to help you make the right choice for your use-case, by presenting the problem space along with a handful of different solutions.
 
@@ -40,15 +40,15 @@ I list the dilemmas I ran into, in the order in which I ran into them. I general
 
 - I explain what the problem is
 - I share some possible solutions
-- Compare the benefits and drawbacks of each solution
-- Help you choose which solution might work best for you
+- compare the benefits and drawbacks of each solution
+- help you choose which solution might work best for you
 
 I'll also cover some of the things that didn't go to plan, and what I learnt by trying them anyway.
 
 When finding a solution for a dilemma, not only did I take a look at the available solutions, but I considered what I wanted to gain from this project. These goals manifested as two key principles:
 
-- To dive deep into the fundamentals of web components
-- To Treat oui-ui as if it's will be a widely used component library
+- to dive deep into the fundamentals of web components
+- to treat oui-ui as if it's will be a widely used component library
 
 Defining core principles makes decision-making a lot easier, and you might want to do the same.
 
@@ -60,20 +60,20 @@ If I haven't scared you off, I recommend following the series in its written ord
 
 ## Table of contents
 
-[Scaffolding your library's repo](./scaffolding-the-repo-for-your-ui-library)
+[Scaffolding the repo for your UI library](/001-scaffolding-the-repo-for-your-ui-library)
 
-[Tools to help you manage your monorepo](https://andri.co)
+[Tools to help you manage your monorepo](/002-tools-to-help-you-manage-your-monorepo)
 
-[Tools to make writing your web components a breeze](https://andri.co)
+[Tools to make writing your web components a breeze](/003-tools-to-make-writing-your-web-components-a-breeze)
 
-[How to build (and maybe bundle) your UI library's packages](https://andri.co)
+[How to build (and maybe bundle) your UI library's packages](/004-how-to-build-and-maybe-bundle-your-UI-library)
 
-[Creating your UI library's testing strategy](https://andri.co)
+[Creating your UI library's testing strategy](/005-defining-your-UI-librarys-testing-strategy)
 
-[Versioning and Publishing: Getting your UI library into your user's hands](https://andri.co)
+[Versioning and publishing: getting your UI library into your user's hands](/006-versioning-and-publishing-getting-your-UI-library-into-your-users-hands)
 
-[Creating documentation for your UI library](https://andri.co)
+[Creating documentation for your UI library](/007-creating-documentation-for-your-UI-library)
 
-[Wrapping up](https://andri.co)
+[Wrapping up: what's next for your UI library?](/008-conclusion-the-dilemmas-you'll-face-when-creating-a-web-component-library)
 
 [Resources](https://github.com/andrico1234/web-components-resources)
