@@ -7,7 +7,7 @@ featured: images/library-by-kevin-butz.jpg
 
 ![A library](images/library-by-kevin-butz.jpg "Photo by [Kevin Butz](https://unsplash.com/@kevin_butz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
-Web development often gets a bad rep about instilling our developers with a sense of JavaScript fatigue. At every step of your journey, you're confronted with dilemmas. Which language to use, which frameworks to use, how to scaffold your repo, how to create a testing strategy. The list goes on.
+Web development often gets a bad rep about instilling our developers with a sense of JavaScript fatigue. At every stage of your journey you're confronted with dilemmas. Which language to use, which frameworks to use, how to scaffold your repo, how to create a testing strategy. The list goes on.
 
 I wanted to create my own UI library but found myself faced with these dilemmas at every step. I felt overwhelmed, not because I *had* to do it all, but because I wanted to feel like I had done it right. Chances are that if you're reading this article series, you're feeling similarly.
 
@@ -16,7 +16,7 @@ This series will walk you through the dilemmas you'll face when creating a UI li
 - there's something alluring about throwing away the need for a JavaScript framework
 - there's a lot of value in getting reacquainted with the fundamental browser technologies (HTML, CSS, Vanilla JS)
 
-And if you're reading this, I'll assume that you somewhat agree too.
+And if you're reading this, I'll assume that you somewhat agree.
 
 Even by removing the need for a framework like Angular/React There's still a (custom) element (😅) of over-choice when choosing how [to](https://hybrids.js.org/#/) [develop](https://lit.dev/) [web](https://stenciljs.com/) [components](https://slimjs.com/#/welcome). And the dilemmas don't end there.
 

@@ -5,9 +5,9 @@ description: "Your component library is taking shape and you're getting close to
 featured: images/testing-by-national-cancer-institute.jpg
 ---
 
-> This article is part 5 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 5 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
-[Dr. Jonathan Hartwell (right) and his assistant Sylvy R. Levy Kornberg conduct some of the earliest chemotherapy tests at the National Cancer Institute, about 1950.](images/testing-by-national-cancer-institute.jpg "Photo by [National Cancer Institute](https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
+![Dr. Jonathan Hartwell (right) and his assistant Sylvy R. Levy Kornberg conduct some of the earliest chemotherapy tests at the National Cancer Institute, about 1950.](images/testing-by-national-cancer-institute.jpg "Photo by [National Cancer Institute](https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 Your components are looking dope. You've shared some teasers on Twitter and your legions of followers are keen to swap out their current UI libraries with yours. But wait, are you certain that it all works as expected? Maybe it's fine on Chrome, but what about Safari and other browsers? What about edge cases or when used with assistive technologies?
 

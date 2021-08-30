@@ -5,9 +5,9 @@ description: "If you haven't chosen a starter kit, you'll need to get your devel
 featured: images/packaging-by-annie-spratt.jpg
 ---
 
-> This article is part 4 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 4 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
-[Crumpled packaging paper](images/packaging-by-annie-spratt.jpg "Photo by [Annie Spratt](https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
+![Crumpled packaging paper](images/packaging-by-annie-spratt.jpg "Photo by [Annie Spratt](https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 You've thrown caution to the wind, and chosen a library/framework (or neither), after all, who has the time to audit [55 different toolchains](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/)?! If you've chosen the Stencil route, you'll get tools to help build and bundle out of the box. The same goes for if you used a Lit starter kit. If you chose neither, or are ready to develop your components, then step this way.
 

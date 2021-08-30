@@ -2,10 +2,12 @@
 title: "Wrapping up: what's next for your UI library?"
 date: "2021-08-28T19:20:00.000Z"
 description: "So you've created your UI library and shared it with the big wide world. What's next? This article wraps up our journey and offers some tips on where to go from here. I hope you've enjoyed the ride!"
-featured: images/seo-test.jpeg
+featured: images/card-by-kelly-sikkema.jpg
 ---
 
 > This article wraps up the "The dilemmas you'll face when creating a web component library" article series. If you haven't read the rest of the series, I'd recommend [starting at the introduction](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library).
+
+![Card on string](images/card-by-kelly-sikkema.jpg "Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 As your UI library grows, you'll find yourself up against new dilemmas and problems specific to your library. If you used this article series to help create your UI library, then please reach out to me on [Twitter](https://twitter.com/AndricoKaroulla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) with a link to your repo and I'll add it to the showcase in the article's GitHub repo.
 
@@ -15,7 +17,7 @@ If you're interested in being a part of the web component community, you can joi
 
 If the discussion around standardising UI components piques your interest, you can get involved with the [Open UI](https://open-ui.org/).
 
-# Thanks for reading
+## Thanks for reading
 
 What started as a simple decision log for [oui-ui](https://oui-ui.netlify.app/) ended up becoming a lengthy article series, so thanks for reading if you've made it to the end.
 

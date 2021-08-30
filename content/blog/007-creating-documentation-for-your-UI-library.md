@@ -2,10 +2,12 @@
 title: Creating documentation for your UI library
 date: "2021-08-28T19:10:00.000Z"
 description: "Good documentation is a cornerstone of great developer experience, and great developer experience will encourage developers to stick with your library. This article offers different documentation options (from the very simple, to the more involved) to help you get your library well-documented and set up for success."
-featured: images/seo-test.jpeg
+featured: images/instructions-by-annie-spratt.jpg
 ---
 
-> This article is part 7 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 7 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+
+![Individual sheets of paper with text on](images/instructions-by-annie-spratt.jpg "Photo by [Annie Spratt](https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 ## Why is documentation important?
 

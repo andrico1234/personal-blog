@@ -5,7 +5,7 @@ description: "Choosing a library for building web components can help you delive
 featured: images/typewriter-markus-winkler.jpg
 ---
 
-> This article is part 3 of the "The dilemmas you'll face when creating a web component library" series. If you haven't read the introduction yet, I'd recommend [giving it a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 3 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
 ![Typewriter](images/typewriter-markus-winkler.jpg "Photo by [Markus Winkler](https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
