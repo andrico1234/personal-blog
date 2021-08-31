@@ -38,7 +38,7 @@ The [accompanying article](https://kentcdodds.com/blog/write-tests) unpacks the 
 
 So why are we avoiding unit tests? Well, your components aren't atomic units of code, but the combination of methods and properties to make a fully functioning component. Unit testing each method will not serve as a guarantee that your component is ready for the big wide world.
 
-[https://i.stack.imgur.com/yHGn1.gif](https://i.stack.imgur.com/yHGn1.gif)
+![Motion-sensing gates causing the motion-sensored doors to open, which is causing the motion-sensing gates to reopen, creating an infinite loop](./images/integration-vs-unit.webp "2 unit tests, 0 integration tests")
 
 And to hit the point home, here's another quote the RTL folks should be familiar with:
 

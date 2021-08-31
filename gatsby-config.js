@@ -10,7 +10,7 @@ module.exports = {
       summary: `a developer who cares deeply about all things frontend, like design systems, accessibility, and web components.`,
     },
     description: `A blog for all my written content.`,
-    siteUrl: `https://zealous-swanson-99a15d.netlify.app`,
+    siteUrl: `https://blog.andri.co`,
     social: {
       twitter: `andricokaroulla`,
     },
@@ -42,6 +42,7 @@ module.exports = {
               maxWidth: 630,
               showCaptions: true,
               markdownCaptions: true,
+              withWebp: true,
             },
           },
           {

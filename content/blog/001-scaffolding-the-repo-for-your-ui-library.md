@@ -7,7 +7,7 @@ featured: images/scaffolding-by-ricardo-gomez-angel.jpg
 
 > This article is part 1 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
-![Scaffolding](./images/scaffolding-by-ricardo-gomez-angel.jpg 'Photo by [Ricardo Gomez Angel](https://unsplash.com/@rgaleria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)')
+![Scaffolding](./images/scaffolding-by-ricardo-gomez-angel.jpg "Photo by [Ricardo Gomez Angel](https://unsplash.com/@rgaleria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
 You've decided that you want to create a web component UI library. Great, that means you've thrown away the "which JavaScript framework do I use?" question. With that said, you're faced your first dilemma, how do you want your end-users to consume your library?
 
@@ -90,7 +90,7 @@ Don't let the arbitrary segregation deter you from doing something different ent
 
 ### Do you want the freedom to version components separately?
 
-A benefit of managing your components via a monorepo is that you'll be able to update individual components as they change, and not the entire library at once. We discuss this a little more in the article that tackles versioning.
+A benefit of managing your components via a monorepo is that you'll be able to update individual components as they change, and not the entire library at once. We discuss this a little more in [my article that tackles versioning](/006-versioning-and-publishing-getting-your-UI-library-into-your-users-hands).
 
 ## What did I choose?
 

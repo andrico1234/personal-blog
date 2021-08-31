@@ -36,15 +36,15 @@ As for [oui-ui](https://oui-ui.netlify.app/), I ended up choosing the WYC stack.
 
 It might sound like a lot to take in, but that's fine as each tool focuses on solving a specific problem. These problems include:
 
-### Dependency management
+#### Dependency management
 
 If you're already using Yarn to install dependencies, y'all get Yarn workspaces for free. The API surface is small and requires little more than some config changes.
 
-### Versioning and publishing
+#### Versioning and publishing
 
 Library versioning is a scary topic (at least for me), but Changesets promotes an approach that better integrates versioning management into the development cycle. If this sounds confusing or vague, I cover versioning and publishing in a lot more detail [here](/006-versioning-and-publishing-getting-your-UI-library-into-your-users-hands).
 
-### Running scripts
+#### Running scripts
 
 Yarn workspaces doesn't have a way to run scripts across multiple packages easily. It might be tempting to roll your own bug-ridden file system traversal script, but why not pick something a little more robust?
 
@@ -58,6 +58,6 @@ As an aside, I should clarify that this behaviour _does_ exist in Yarn...
 
 Nothing's stopping you from using both Lerna and Yarn workspaces. Repos like [Vaadin](https://github.com/vaadin/web-components) do so you can mix and match to fit your needs.
 
-### Next steps
+## Next steps
 
 Your repo is finally set up and you've got a suite of management tools at your disposal. It's time to [write some web components](/003-tools-to-make-writing-your-web-components-a-breeze).
