@@ -15,8 +15,13 @@ This series will walk you through the dilemmas you'll face when creating a UI li
 
 - there's something alluring about throwing away the need for a JavaScript framework
 - there's a lot of value in getting reacquainted with the fundamental browser technologies (HTML, CSS, Vanilla JS)
+- web components are well-support in modern browsers
 
 And if you're reading this, I'll assume that you somewhat agree.
+
+In fact, Hayden Pickering sums up the last point perfectly in [Inclusive Components](https://inclusive-components.design/):
+
+> The more of your design system that's written in native code, the more interoperable, reusable, and future-proof it is.
 
 Even by removing the need for a framework like Angular/React There's still a (custom) element (😅) of over-choice when choosing how [to](https://hybrids.js.org/#/) [develop](https://lit.dev/) [web](https://stenciljs.com/) [components](https://slimjs.com/#/welcome). And the dilemmas don't end there.
 
