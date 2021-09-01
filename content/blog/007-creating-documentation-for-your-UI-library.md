@@ -42,13 +42,13 @@ This is an evolution to option 1 and would be a viable option for those who expe
 
 If you've been contributing to your documentation via option 1, you can use those files as inputs to static site generators like [Rocket](https://rocket.modern-web.dev/guides/) and [Docusaurus](https://docusaurus.io/).
 
-These are both tools that take your markdown and JavaScript, and compile it to a static site optimised for documentation. Both these tools provide routing, page rendering, and bundle optimisations out of the box. These tools also provide benefits over other static site generators, like Gatsby, as they provide features and tooling focused around building documentation sites.
+These are both tools that take your markdown and JavaScript, and compile it to a static site optimised for documentation. Both these tools provide routing, page rendering, and bundle optimisations out of the box. These tools also provide benefits over other static site generators, like Gatsby, as they provide features and tooling focused around building documentation sites, though Rocket isn't only used for documentation.
 
 Note: Rocket is still in an early beta phase so expect breaking changes. Their docs may still have parts outdated or missing. I wanted to give Rocket a shoutout because it has a lot of potential and is part of the Modern Web family.
 
 I won't focus much on how to get started with a specific framework, because this dilemma is less about the specific technology and more about the underlying principles.
 
-For [oui-ui](https://oui-ui.netlify.app/), I chose to use Docusaurus due to its feature-set focusing on accessibility and fast feeling experiences. I'd eventually like to migrate over to Rocket, as their use of the `mdjs` file format, seems more appropriate for web components. Docusaurus uses `mdx`, which is a way of embedding React into your markdown files. This works fine, but getting web components working with React often requires a little extra work.
+For [oui-ui](https://oui-ui.netlify.app/), I chose to use Docusaurus due to its feature-set focusing on accessibility and fast feeling experiences. I'd eventually like to migrate over to Rocket, as their use of the `mdjs` file format seems more appropriate for web components. Docusaurus uses `mdx`, which is a way of embedding React into your markdown files. This works fine, but getting web components working with React often requires a little extra work.
 
 ### Option 3: UI Cataloging (Storybook)
 
@@ -56,7 +56,7 @@ Nathan Curtis has an excellent series on [Document UI Components](https://medium
 
 Cataloging your UI components is one way of giving your end users a playground to test your components, while also providing examples and code snippets. Several well-known UI sites use Storybook for just this, including [Clever Cloud](https://www.clever-cloud.com/doc/clever-components/).
 
-The downside to using Storybook is that it's the most involved of the 3 options. Using it requires understanding the feature-rich framework, as well as learning the specific syntax required to write stories.
+The downside to using Storybook is that it's the most involved of the 3 options. Using it requires understanding the feature-rich framework, as well as learning the specific syntax required to write stories. If using Storybook feels too involved then Rocket satisfies as a UI cataloging tool. In fact, [Lion](https://lion-web.netlify.app/components/) uses Rocket as their component catalog. Rocket doesn't have the same degree of functionality, but can be considered as a lighter-touch alternative to Storybook. 
 
 For a widely-used UI library or design system, this trade-off can yield amazing results. Clever Cloud's docs site not only lets you interact with each component, but also provides contextual examples by using many components together.
 

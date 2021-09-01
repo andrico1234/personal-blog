@@ -50,7 +50,7 @@ I'll also cover some of the things that didn't go to plan, and what I learnt by 
 When finding a solution for a dilemma, not only did I take a look at the available solutions, but I considered what I wanted to gain from this project. These goals manifested as two key principles:
 
 - to dive deep into the fundamentals of web components
-- to treat oui-ui as if it's will be a widely used component library
+- to treat oui-ui as if it will be a widely used component library
 
 Defining core principles makes decision-making a lot easier, and you might want to do the same.
 

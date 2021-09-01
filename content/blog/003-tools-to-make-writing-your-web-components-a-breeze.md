@@ -36,6 +36,8 @@ For instance, Stencil offers additional lifecycle hooks and helper decorators as
 
 Lit is another popular choice, and is used by [Material Web](https://material-components.github.io/material-components-web-catalog/#/component/button), [Wired](https://github.com/rough-stuff/wired-elements/blob/master/src/wired-card.ts), [Lion](https://lion-web.netlify.app/), and many other libraries. Lit's designed to remove a lot of the boilerplate involved with writing web components, but doesn't offer as many extras out of the box as Stencil does. This keeps Lit's API simple. In fact, the core `LitElement` is derived from `HTMLElement`, meaning their API should feel familiar for those with some pre-existing web component development experiences.
 
+Don't feel like choosing a framework/library limits creative control over your library. [Wired elements](https://wiredjs.com/) demonstrates that you can make something truly unique using a web component library.
+
 Both Lit and Stencil offer starter kits that set up your development environment to ease with developing, testing, and publishing. If you want to fast-track through this article series, those kits are a great place to start.
 
 Haunted can be used in conjunction with Lit, and its shtick is offering an API akin to React's hook API. For someone coming from a React-heavy background, this could be a viable choice.

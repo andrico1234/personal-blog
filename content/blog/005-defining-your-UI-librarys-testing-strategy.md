@@ -24,7 +24,7 @@ This article is not a comprehensive introduction to the wide world of testing. I
 I didn't know what to call this, is it integration testing? Headless browser testing? 🤷🏽‍♀️ It's testing your web components by running them in a browser without a UI. Doing so provides benefits like:
 
 - letting you use the browser's API and programmatically interact with your component just as a user would.
-- improving the speed of your tests as there's no longer the overhead of a browse UI.
+- improving the speed of your tests as there's no longer the overhead of a browser UI.
 
 This means you're testing your components under real-life conditions, and aren't spending too much time and effort testing your component's internals.
 
