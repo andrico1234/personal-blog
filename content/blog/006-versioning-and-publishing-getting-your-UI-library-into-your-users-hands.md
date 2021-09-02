@@ -5,7 +5,7 @@ description: "Versioning and publishing can feel intimidating. At least it does 
 featured: images/launch-by-margaux-bellott.jpg
 ---
 
-> This article is part 6 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 6 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the introduction a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
 ![Rocket ready for launch](images/launch-by-margaux-bellott.jpg "Photo by [Margaux Bellott](https://unsplash.com/@mxrgo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 

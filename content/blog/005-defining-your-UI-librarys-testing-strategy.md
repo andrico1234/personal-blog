@@ -5,7 +5,7 @@ description: "Your component library is taking shape and you're getting close to
 featured: images/testing-by-national-cancer-institute.jpg
 ---
 
-> This article is part 5 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 5 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the introduction a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
 ![Dr. Jonathan Hartwell (right) and his assistant Sylvy R. Levy Kornberg conduct some of the earliest chemotherapy tests at the National Cancer Institute, about 1950.](images/testing-by-national-cancer-institute.jpg "Photo by [National Cancer Institute](https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 

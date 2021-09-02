@@ -5,7 +5,7 @@ description: "If you haven't chosen a starter kit, you'll need to get your devel
 featured: images/packaging-by-annie-spratt.jpg
 ---
 
-> This article is part 4 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 4 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the introduction a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
 ![Crumpled packaging paper](images/packaging-by-annie-spratt.jpg "Photo by [Annie Spratt](https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 

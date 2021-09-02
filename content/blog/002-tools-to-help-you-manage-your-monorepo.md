@@ -5,7 +5,7 @@ description: "Finding the right tools to manage your monorepo isn't a new proble
 featured: images/tools-by-hunter-haley.jpg
 ---
 
-> This article is part 2 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the instructions a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
+> This article is part 2 of the "The dilemmas you'll face when creating a web component library" series. If this is the first article in the series you've come across, I'd recommend [giving the introduction a read](/000-the-dilemmas-you'll-face-when-creating-a-web-component-library) first.
 
 ![Hammer, screwdriver, and pliers](images/tools-by-hunter-haley.jpg "Photo by [Hunter Haley](https://unsplash.com/@hnhmarketing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)")
 
