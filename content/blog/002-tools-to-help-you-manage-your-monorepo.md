@@ -56,7 +56,9 @@ As an aside, I should clarify that this behaviour _does_ exist in Yarn...
 
 ### Why not both?
 
-Nothing's stopping you from using both Lerna and Yarn workspaces. Repos like [Vaadin](https://github.com/vaadin/web-components) do so you can mix and match to fit your needs.
+Nothing's stopping you from using both Lerna and Yarn workspaces. [Vaadin](https://github.com/vaadin/web-components) is an example of a repo that uses both. Since Vaadin's component library contains over 5000 tests, running them all takes over 10 minutes.
+
+To counter this Vaadin uses Lerna in their test's utility scripts to retrieve a list of the packages that have changed since branching off `main`. The script is used to build the test suite's config, which tells the test runner to only run the tests from the changed packages. This saves Vaadin developers ~10 minutes every time the suite is run.
 
 ## Next steps
 
