@@ -11,15 +11,15 @@ featured: images/scaffolding-by-ricardo-gomez-angel.jpg
 
 You've decided that you want to create a web component UI library. Great, that means you've thrown away the "which JavaScript framework do I use?" question. With that said, you're faced your first dilemma, how do you want your end-users to consume your library?
 
-## Dilemma 0: Should your users consume your library as a global module or as scoped modules?
+## Dilemma 0: Should your users consume your library as a single package or as scoped packages?
 
 Thinking about your end users at this point might seem pre-emptive, but the answer to this question impacts how you structure your repo. The good news is you can always change things down the line if you decide your choice wasn't quite right.
 
-What are your two options? There's the global module route, where your end-users simply install a single package. The alternative is to break your packages into smaller "scoped" modules, where smaller bundles of code are installable individually.
+What are your two options? You can export all of your components via a single package, installing this package will give users access to your entire suite. The alternative is to break your packages into smaller "scoped" packages, where smaller bundles of code are installable individually.
 
-### Global modules
+### Single package
 
-Libraries like [Ant Design](https://ant.design/) offer a core UI module that provide access to a few dozen components. You'd install via:
+Libraries like [Ant Design](https://ant.design/) offer a core UI package that provide access to a few dozen components. You'd install via:
 
 ```bash
 npm install antd
@@ -31,7 +31,7 @@ and import via:
 import { Button, Switch } from "antd"
 ```
 
-### Scoped modules
+### Scoped packages
 
 Other libraries like [Material Web](https://material.io/components?platform=web) and [Lion WC](https://lion-web.netlify.app/) take a monorepo approach, where each component lives in its own sub-directory. This means that each component can be published and installed discretely. If you want to use both Lion's checkbox and button components, you'll need to install two separate packages:
 
@@ -61,7 +61,7 @@ You can also check out [Monorepos: A Multivocal Literature Review](https://www.r
 
 ### What about libraries that mix both?
 
-Libraries like [Chakra UI](https://chakra-ui.com/) and [Material UI](https://material-ui.com/) offer *react* or *core* scoped modules, which give end-users access to multiple components via a single module.
+Libraries like [Chakra UI](https://chakra-ui.com/) and [Material UI](https://material-ui.com/) offer *react* or *core* scoped packages, which give end-users access to multiple components via a single package.
 
 You might be concerned about your end-user's bundles containing unused components. The [Open WC](https://open-wc.org/guides/developing-components/publishing/) offers some best practices for publishing web components, one of which recommends you export your library as ESM. Doing so means your end-user can remove unused code during transpilation.
 
@@ -78,13 +78,15 @@ Why would you want to choose one over the other? Consider the following question
 
 If you answered yes to the first two questions, you'll want to consider exporting your components via a single package.
 
-If you answered yes to the last two questions, you'll want to consider scoping your modules.
+If you answered yes to the last two questions, you'll want to consider scoping your packages.
 
 ### Does your library incorporate a design language or encourage the use of several components?
 
-Ant Design and Material UI are often viewed more as frameworks than libraries, as they're opinionated on how you design and build your UIs. If you're in for a penny, you're in for a pound.
+Both [Ant Design](https://ant.design/docs/spec/values) and [Material UI](https://material-ui.com/customization/theming/) offer their own ways building UI components. Since Ant Design incorporates their own design language into their component suite, end-users are likely to use multiple components throughout their web apps. As for Material UI, a number of their components can be used together to build complex UI, like the various Dialog* components. This alone makes a case for Material UI to export many components from a single package.
 
-For projects like Lion WC, which utilises a scoped modules approach, the library offers white-labeled components that an end-user can pick and choose from. This facilitates the workflow where a user may need a single component.
+Note: While Material UI uses scoped packages, their `material` package [exports dozens of components](https://github.com/mui-org/material-ui/tree/master/packages/mui-material/src).
+
+For projects like Lion WC, which utilises a scoped packages approach, the library offers white-labeled components that an end-user can pick and choose from. This facilitates the workflow where a user may need only a handful of components.
 
 Don't let the arbitrary segregation deter you from doing something different entirely. [Wired Elements](https://github.com/rough-stuff/wired-elements) is a UI component library that exports all of the components from a single package.
 
