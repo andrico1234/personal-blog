@@ -36,7 +36,7 @@ const BlogIndex = ({ data, location }) => {
                   <h2>
                     {externalLink ? (
                       <a href={externalLink} itemProp="url">
-                        <span itemProp="headline">{title} (guest)</span>
+                        <span itemProp="headline">{title}</span>
                       </a>
                     ) : (
                       <Link to={post.fields.slug} itemProp="url">
@@ -47,6 +47,11 @@ const BlogIndex = ({ data, location }) => {
                   <p>
                     <small>{post.frontmatter.date}</small>
                   </p>
+                  {post.frontmatter.site && (
+                    <p>
+                      <small>Guest post at {post.frontmatter.site}</small>
+                    </p>
+                  )}
                 </header>
                 <section>
                   <p
@@ -100,6 +105,7 @@ export const pageQuery = graphql`
           title
           description
           link
+          site
         }
       }
     }
