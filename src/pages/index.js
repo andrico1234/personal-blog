@@ -27,15 +27,22 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
+          const externalLink = post.frontmatter.link
 
           return (
             <li className="post-list-item" key={post.fields.slug}>
               <article itemScope itemType="http://schema.org/Article">
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
+                    {externalLink ? (
+                      <a href={externalLink} itemProp="url">
+                        <span itemProp="headline">{title} (guest)</span>
+                      </a>
+                    ) : (
+                      <Link to={post.fields.slug} itemProp="url">
+                        <span itemProp="headline">{title}</span>
+                      </Link>
+                    )}
                   </h2>
                   <p>
                     <small>{post.frontmatter.date}</small>
@@ -92,6 +99,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          link
         }
       }
     }

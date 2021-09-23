@@ -113,6 +113,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: {frontmatter: {link: {eq: null}}}
                 ) {
                   nodes {
                     excerpt
