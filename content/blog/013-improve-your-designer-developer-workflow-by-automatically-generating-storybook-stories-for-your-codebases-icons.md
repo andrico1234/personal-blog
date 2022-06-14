@@ -11,7 +11,7 @@ Over the last few months, we’ve been pushing hard to improve our designer/deve
 
 For the most part, it’s easy to keep Storybook in sync with our components, since we’re creating stories with the same components we’re using throughout our codebase. Unfortunately, some components aren’t easy to keep in sync, in our case it’s icons. It’s important for our codebase to be in sync with our design system, and cataloging the icons makes our designers’ jobs a smidge easier.
 
-We use Material UI for as our icon library, and we pull in dozens of different icons. We add new icons, remove unused ones, or swap icons around. This means that the icons we're using are always changing. It's unrealistic to expect our developers to remember to update our Storybook on every small change, and as far as I know, there’s no way to automatically track the exports used for a given package. (If there is, then please let me know via [Tweet](https://twitter.com/andricokaroulla)). Fortunately, we can use our development expertise to hack a little script that automatically catalogs our icons.
+We use Material UI for our icon library, and we pull in dozens of different icons. We add new icons, remove unused ones, or swap icons around. This means that the icons we're using are always changing. It's unrealistic to expect our developers to remember to update our Storybook on every small change, and as far as I know, there’s no way to automatically track the exports used for a given package. (If there is, then please let me know via [Tweet](https://twitter.com/andricokaroulla)). Fortunately, we can use our development expertise to hack a little script that automatically catalogs our icons.
 
 This is such a script in action:
 
