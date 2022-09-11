@@ -4,11 +4,14 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Email } from "../components/email"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  const externalLink = post.frontmatter.link
+  const content = !externalLink ? post.html : post.frontmatter.description
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -28,9 +31,16 @@ const BlogPostTemplate = ({ data, location }) => {
           <p>{post.frontmatter.date}</p>
         </header>
         <section
-          dangerouslySetInnerHTML={{ __html: post.html }}
+          dangerouslySetInnerHTML={{ __html: content }}
           itemProp="articleBody"
         />
+        {externalLink ? (
+          <div className="link-to-full-article">
+            <a href={externalLink}>
+              Read full article at {post.frontmatter.site}
+            </a>
+          </div>
+        ) : null}
         <hr />
         <div className="s9-widget-wrapper"></div>
         <footer>
@@ -63,6 +73,20 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      <div className="contact-list-item">
+        <article>
+          <header>
+            <h2>Subscribe</h2>
+          </header>
+          <p>
+            Get notified whenever I post and get it sent straight to your inbox
+          </p>
+          <Email />
+          <p>
+            I promise I won't send spam 😇. You can unsubscribe at any time.
+          </p>
+        </article>
+      </div>
     </Layout>
   )
 }
@@ -88,6 +112,8 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        link
+        site
         image: featured {
           childImageSharp {
             resize(width: 1200) {
