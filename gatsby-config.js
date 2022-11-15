@@ -66,14 +66,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-social9-socialshare`,
-      options: {
-        content: process.env.SOCIAL_9_API_KEY,
-        async: true,
-        defer: true,
-      },
-    },
     "gatsby-plugin-catch-links",
     // {
     //   resolve: `gatsby-plugin-google-analytics`,
@@ -128,6 +120,7 @@ module.exports = {
                 }
               }
             `,
+            title: "Andrico's Blog",
             output: "/rss.xml",
           },
         ],
