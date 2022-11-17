@@ -75,7 +75,7 @@ As a result, when a variable is declared with a `url()`, the value is unresolved
 
 This leads us to the problem we observed at the beginning. `url()`s used as variables are resolved against the base URL of the stylesheet that they’re referenced in.
 
-So for our fonts, which are declared in the stylesheet hosted at `[https://cdn/@a2000/styles/a2k-styles.css](https://cdn/@a2000/styles/a2k-styles.css)` , the url resolves to [`https://cdn/@a2000/styles/fonts/ms-sans-serif.otf`](https://cdn.jsdelivr.net/npm/@a2000/styles/fonts/ms-sans-serif/ms-sans-serif.otf)
+So for our fonts, which are declared in the stylesheet hosted at `https://cdn/@a2000/styles/a2k-styles.css`, the url resolves to `https://cdn/@a2000/styles/fonts/ms-sans-serif.otf`
 
 For our cursors, which we declared in the stylesheet hosted on the same CDN but are referenced from `https://a2000.co/assets/index.js`, the url resolves to `https://a2000.co/assets/cursors/pointer.svg`.
 
