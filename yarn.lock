@@ -3477,6 +3477,7 @@ __metadata:
     gatsby-source-filesystem: ^5.0.0
     gatsby-transformer-remark: ^6.0.0
     gatsby-transformer-sharp: ^5.0.0
+    insights-js: ^1.2.11
     prettier: 2.2.1
     prismjs: ^1.23.0
     react: ^18.0.0
@@ -8572,6 +8573,13 @@ __metadata:
     strip-ansi: ^6.0.0
     through: ^2.3.6
   checksum: 4d387fc1eb6126acbd58cbdb9ad99d2887d181df86ab0c2b9abdf734e751093e2d5882c2b6dc7144d9ab16b7ab30a78a1d7f01fb6a2850a44aeb175d1e3f8778
+  languageName: node
+  linkType: hard
+
+"insights-js@npm:^1.2.11":
+  version: 1.2.11
+  resolution: "insights-js@npm:1.2.11"
+  checksum: 3dc396c6c629e6c6e3d455bbd1f2371c2a9541bba24049f4a91a9eafb12fe954d86b7d8e00ae7e8693cd9f4e4f840d5f3ba9b6ef12b68580c7a0f96114ff7dee
   languageName: node
   linkType: hard
 
