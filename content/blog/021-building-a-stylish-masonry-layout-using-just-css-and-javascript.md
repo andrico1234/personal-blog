@@ -2,7 +2,8 @@
 title: "Building a stylish Masonry layout using CSS and JavaScript"
 date: "2023-02-02T19:00:00.000Z"
 description: "Effectively rendering huge amounts of data on a website can be a challenging problem. I'll show you how to use the masonry pattern to not only deal with this challenge, but to do it while looking stylish."
-featured: images/020/a2k-hero.png
+featured: images/021/social.png
+
 ---
 
 Effectively rendering huge amounts of data on a website can be a challenging problem. I'll show you how to use the masonry pattern to not only deal with this challenge, but to do it while looking stylish.
