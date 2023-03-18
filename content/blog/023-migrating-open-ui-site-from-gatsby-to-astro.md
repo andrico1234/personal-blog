@@ -23,7 +23,7 @@ With that in mind, working closely with a few members of the group, I planned an
 - Visitors to the Open UI site deserve an excellent web experience.
 - The Open UI site should be built on a core of HTML, CSS, and Markdown, with JavaScript added as necessary.
 
-## The Open UI site should be easy to maintain and contribute to
+### The Open UI site should be easy to maintain and contribute to
 
 To really make the most out of the amazing breadth of knowledge that everyone involved in Open UI has, we need to make the barrier for entry to contribute to the site as low as possible.
 
@@ -35,7 +35,7 @@ The Open UI site sounds simple enough, a static content site with some splashes 
 
 Asking a team of volunteers to learn two discrete (and often challenging) technologies to make changes to a static site is a tall order. No one should need to know the difference between a `gatsby-node`, `gatsby-browser` and a `gatsby-config` file.
 
-## Those visiting the Open UI site deserve an excellent web experience
+### Visitors to the Open UI site deserve an excellent web experience.
 
 The Open UI site has tens of thousands of monthly visitors from all around the world, with little consistency in device power and internet strength. Those on lower-end tech should still be given a smooth web experience.
 
@@ -49,7 +49,7 @@ Is this worth 2.1mb?
 
 One of Astro’s selling points is only loading and parsing the necessary JavaScript on the page when it’s needed. This is perfect for a site like the Open UI that requires very little JavaScript.
 
-## The Open UI site should be built on a core of HTML, CSS, and Markdown, with JavaScript as necessary
+### The Open UI site should be built on a core of HTML, CSS, and Markdown, with JavaScript as necessary
 
 GraphQL and React both have their place in web development, but for a simple content-driven site like Open UI, we should work more closely with the browser platform.
 
@@ -304,7 +304,7 @@ Lighthouse scores below, but a number of folks testing the site said themselves 
 
 Let’s review our three guiding principles, and determine whether we hit them:
 
-**Those visiting the Open UI site deserve an excellent web experience**
+**Visitors to the Open UI site deserve an excellent web experience.**
 
 It’s very clear from the metrics above that we delivered on this. The page feels snappier, and we’re delivering much less JS to download and parse for our users.
 
