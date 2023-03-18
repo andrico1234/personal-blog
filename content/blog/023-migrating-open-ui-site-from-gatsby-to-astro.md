@@ -290,11 +290,11 @@ Lighthouse scores below, but a number of folks testing the site said themselves 
 
 #### Gatsby (desktop)
 
-![Gatsby lighthouse scores (desktop) - 99/100/100/100](./images/023/gatsby-desktop.png)
+![Gatsby lighthouse scores (desktop) - 98/100/100/100](./images/023/gatsby-desktop.png)
 
 #### Gatsby (mobile)
 
-![Gatsby lighthouse scores (mobile) - 99/100/100/100](./images/023/gatsby-mobile.png)
+![Gatsby lighthouse scores (mobile) - 77/100/100/100](./images/023/gatsby-mobile.png)
 
 ##### Astro (desktop)
 
@@ -302,7 +302,7 @@ Lighthouse scores below, but a number of folks testing the site said themselves 
 
 #### Astro (mobile)
 
-![Astro lighthouse scores (mobile) - 99/100/100/100](./images/023/astro-mobile.png)
+![Astro lighthouse scores (mobile) - 98/100/100/100](./images/023/astro-mobile.png)
 
 Let’s review our three guiding principles, and determine whether we hit them:
 
