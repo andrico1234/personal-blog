@@ -242,7 +242,9 @@ Even with the hard work over, and after all the tough decisions have been made, 
 
 ![Some mostly non-constructive feedback](./images/023/blunt-feedback.png)
 
-Tucked away in this **blunt** feedback, this person raised a good point. The site didn’t feel quite as fast as our previous implementation. Sadly, the moment I reached out for them to join our fortnightly feedback call or offer suggestions for improvements they went radio silent.
+Tucked away in this **blunt** feedback, this person raised a good point. The site didn’t feel quite as fast as our previous implementation. Sadly, the moment I reached out for them to join our fortnightly feedback call or offer suggestions for improvements they went radio silent. To be clear, this isn't an indication of the culture of the Open UI as a whole. In fact, many members of the group were active in QA and in offerring ideas and suggestions.
+
+Hearing such blunt feedback did make me wonder...
 
 Had I wasted my, and the group's, time?
 
@@ -254,11 +256,11 @@ Fortunately, there were no other nasty surprises. In fact, thanks to the time ta
 
 Even after all that coding, things aren’t done yet. The rollout phase can be a tall hurdle to jump over. Fortunately, the Open UI team were involved with the QA, and managed to discover a number of smaller problems. I want to give thanks to the folks who spotted things I missed, including:
 
-- IDs and links to headers - Thanks Mason
-- Handling page redirects + content flashing - Thanks Jon Neal
-- Image + Link accessibility improvements - Thanks Ben
-- aria-\* attributes not updating when they should be - Thanks Jhey
-- helping keep momentum going and helping keep the migration focused - Thanks Greg
+- IDs and links to headers - Thanks [Mason Freed](https://twitter.com/Mfreed777)
+- Handling page redirects + content flashing - Thanks [Jon Neal](https://twitter.com/jon_neal)
+- Image + Link accessibility improvements - Thanks [Ben Myers](https://twitter.com/BenDMyers)
+- aria-\* attributes not updating when they should be - Thanks [Jhey Thompkins](https://twitter.com/jh3yy)
+- helping keep momentum going and helping keep the migration focused - Thanks [Greg Whitworth](https://twitter.com/gregwhitworth)
 
 ![I've fixed the following problems: No more flashing font. Interactive elements are now interactive.](./images/023/release-notes.png)
 
@@ -320,4 +322,4 @@ This one’s a little up in the air. While Astro reduces a lot of the complexiti
 
 I already gave a shout out to some folks already, but would like to say thanks to everyone in the Open UI group who took the time to offer their time, suggestions, and feedback.
 
-Especially to Greg for chairing the Open UI group, and making it a wonderful group to be a part of.
+Especially to [Greg Whitworth](https://twitter.com/gregwhitworth) for chairing the Open UI group, and making it a wonderful group to be a part of.
