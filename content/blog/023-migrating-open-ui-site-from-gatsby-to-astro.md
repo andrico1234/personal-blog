@@ -250,9 +250,9 @@ Had my planning gone so wrong that our visitors will soon be subjected to an awf
 
 Luckily members of the [greater web community were quick in helping me resolve this problem](https://github.com/withastro/astro/issues/5458).
 
-Fortunately, there were no nasty surprises that popped up that held up progress. In fact, thanks to the time taken during the research phase, I was able to code pretty much non-stop with very little in the way of friction.
+Fortunately, there were no other nasty surprises. In fact, thanks to the time taken during the research phase, I was able to code pretty much non-stop with very little in the way of friction.
 
-Even after all that coding, things aren’t done yet. The rollout phase can be a tall hurdle to jump over. Fortunately, the Open UI team were involved with the QA, and managed to discover a number of smaller problems. I want to give thanks to the folks who spotted a few things I missed, including:
+Even after all that coding, things aren’t done yet. The rollout phase can be a tall hurdle to jump over. Fortunately, the Open UI team were involved with the QA, and managed to discover a number of smaller problems. I want to give thanks to the folks who spotted things I missed, including:
 
 - IDs and links to headers - Thanks Mason
 - Handling page redirects + content flashing - Thanks Jon Neal
