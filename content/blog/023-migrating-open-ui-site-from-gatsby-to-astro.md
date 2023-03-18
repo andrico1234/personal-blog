@@ -1,5 +1,5 @@
 ---
-title: "Reducing JavaScript by 97% on the Open UI site by migrating to Astro"
+title: "Reducing 97% of the Open UI site's JavaScript by migrating to Astro"
 date: "2023-03-18T19:00:00.000Z"
 description: "The Open UI site has undergone an upgrade. Learn how I reduced JavaScript on load by 97%, reduced initial bundle size by 1.9mb, and knocked off 1.9s the time to interactive by planning and executing a rewrite from Gatsby to Astro."
 featured: images/023/header-image.png
@@ -197,7 +197,7 @@ const pageDetails = await Astro.glob('../../pages/**/*.(md|mdx)');
 The Open UI codebase doesn’t have a consistent way of handling styles. This isn’t a framework-specific issue, instead it’s come about due to a number of different contributors making changes to the codebase over a number of years. Some of the styling approaches we had were:
 
 - Global CSS files
-- usage of typography.js, a tool that turns config into styles at build time
+- Usage of typography.js, a tool that turns config into styles at build time
 - Component level CSS files
 - Inline CSS
 - and more…
@@ -232,7 +232,7 @@ If we couldn’t have the same level of image optimisation, we could do a few th
 
 Static sites generally have it easy when it comes to deployments. We don’t need a long running server, we just need our hosting provider to run a build script and serve the output.
 
-With that said, I have had issues in the past with certain plugins, dependency versions, and scripts working locally but failing in the CI pipeline. At the beginning of the project, always ensure that you can could easily to test in-progress versions of the site in a production-like environment.
+With that said, I have had issues in the past with certain plugins, dependency versions, and scripts working locally but failing in the CI pipeline. At the beginning of the project, always ensure that you can easily to test in-progress versions of the site in a production-like environment.
 
 We use Netlify to handle this, and it’s GitHub integration is perfect. Only a couple of configuration changes were required to get things up and running. Netlify is my go-to deployment tool and I’d recommend for anyone that is looking to deploy their static site.
 
@@ -242,9 +242,9 @@ Even with the hard work over, and after all the tough decisions have been made, 
 
 ![Some mostly non-constructive feedback](./images/023/blunt-feedback.png)
 
-Tucked away in the **blunt** feedback, this person raised a good point. The site didn’t feel quite as fast as our previous implementation. Sadly, the moment I reached out for them to join our fortnightly feedback call or offer suggestions for improvements they went radio silent.
+Tucked away in this **blunt** feedback, this person raised a good point. The site didn’t feel quite as fast as our previous implementation. Sadly, the moment I reached out for them to join our fortnightly feedback call or offer suggestions for improvements they went radio silent.
 
-Had I wasted my time, and the time of the Open UI group?
+Had I wasted my, and the group's, time?
 
 Had my planning gone so wrong that our visitors will soon be subjected to an awful web experience?
 
