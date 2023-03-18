@@ -259,7 +259,7 @@ Even after all that coding, things aren’t done yet. The rollout phase can be a
 - IDs and links to headers - Thanks [Mason Freed](https://twitter.com/Mfreed777)
 - Handling page redirects + content flashing - Thanks [Jon Neal](https://twitter.com/jon_neal)
 - Image + Link accessibility improvements - Thanks [Ben Myers](https://twitter.com/BenDMyers)
-- aria-\* attributes not updating when they should be - Thanks [Jhey Tompkins](https://twitter.com/jh3yy)
+- aria-\* attributes not updating when they should be + spotting some quick performance/Lighthouse wins - Thanks [Jhey Tompkins](https://twitter.com/jh3yy)
 - helping keep momentum going and helping keep the migration focused - Thanks [Greg Whitworth](https://twitter.com/gregwhitworth)
 
 ![I've fixed the following problems: No more flashing font. Interactive elements are now interactive.](./images/023/release-notes.png)
