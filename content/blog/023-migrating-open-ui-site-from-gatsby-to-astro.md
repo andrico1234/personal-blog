@@ -23,6 +23,8 @@ With that in mind, working closely with a few members of the group, I planned an
 - Visitors to the Open UI site deserve an excellent web experience.
 - The Open UI site should be built on a core of HTML, CSS, and Markdown, with JavaScript added as necessary.
 
+The outcome of the migration was a huge reduction in the JavaScript needed to render the homepage, from 2mb to 63kb.
+
 ### The Open UI site should be easy to maintain and contribute to
 
 To really make the most out of the amazing breadth of knowledge that everyone involved in Open UI has, we need to make the barrier for entry to contribute to the site as low as possible.
@@ -256,7 +258,7 @@ Fortunately, there were no other nasty surprises. In fact, thanks to the time ta
 
 Even after all that coding, things aren’t done yet. The rollout phase can be a tall hurdle to jump over. Fortunately, the Open UI team were involved with the QA, and managed to discover a number of smaller problems. I want to give thanks to the folks who spotted things I missed, including:
 
-- IDs and links to headers - Thanks [Mason Freed](https://twitter.com/Mfreed777)
+- Missing clickable header links - Thanks [Mason Freed](https://twitter.com/Mfreed777)
 - Handling page redirects + content flashing - Thanks [Jon Neal](https://twitter.com/jon_neal)
 - Image + Link accessibility improvements - Thanks [Ben Myers](https://twitter.com/BenDMyers)
 - aria-\* attributes not updating when they should be + spotting some quick performance/Lighthouse wins - Thanks [Jhey Tompkins](https://twitter.com/jh3yy)
@@ -284,7 +286,7 @@ Some of the biggest takeaways from the table are:
 - A massive reduction of JavaScript downloaded and parsed on homepage load
 - A significant improvement to site load speed.
 
-Lighthouse scores below, but a number of folks testing the site said themselves that the site felt snappier.
+Lighthouse scores below, but a number of folks testing the site said themselves that the site felt snappier. As well as loading much more quickly, we also prefetch other routes to ensure that navigating through the site feels much snappier.
 
 ### Lighthouse scores
 
